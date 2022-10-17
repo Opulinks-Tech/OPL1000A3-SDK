@@ -101,7 +101,7 @@
 0x000004e1 T strcasecmp
 0x0000050b T strncasecmp
 0x0000053d T calloc
-0x00000559 T __0sscanf
+;0x00000559 T __0sscanf
 0x00000591 T _scanf_int
 0x000006dd T _scanf_string
 0x000007bd T strtol
@@ -133,7 +133,7 @@
 0x00000d81 T _ll_ushift_r
 0x00000da1 T tolower
 0x00000dad T _chval
-0x00000dd5 T __vfscanf_char
+;0x00000dd5 T __vfscanf_char
 0x00000df1 T _sgetc
 0x00000e0f T _sbackspace
 0x00000e31 T _strtoul
@@ -152,7 +152,7 @@
 0x00001221 T __scatterload_rt2
 0x00001245 T __aeabi_lasr
 0x00001245 T _ll_sshift_r
-0x00001269 T __vfscanf
+;0x00001269 T __vfscanf
 0x00001595 T _strtoull
 0x00001657 T __decompress
 0x00001657 T __decompress1

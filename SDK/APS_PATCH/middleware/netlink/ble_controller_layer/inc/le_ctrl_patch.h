@@ -30,7 +30,9 @@ extern "C" {
  */
 #include "le_ctrl.h"
 
-
+/* For instrument to directly tx/rx HCI commands/events via uart. */
+// #define DEFAULT_UART_HCI_MODE 
+    
 /*
  *************************************************************************
  *                          Definitions and Macros
@@ -67,6 +69,7 @@ void le_ctrl_data_hci_buf_fragment_routine_patch(uint16_t handle);
 // le_ctrl_enc
 
 // le_ctrl_hci
+void le_ctrl_init_patch(void);
 
 // le_ctrl_hci_handler
 

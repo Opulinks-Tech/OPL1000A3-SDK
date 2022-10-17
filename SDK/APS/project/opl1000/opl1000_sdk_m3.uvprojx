@@ -405,31 +405,6 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>at</GroupName>
-          <Files>
-            <File>
-              <FileName>at_cmd_func_patch.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\APS_PATCH\middleware\netlink\at\at_cmd_func_patch.c</FilePath>
-            </File>
-            <File>
-              <FileName>at_cmd_sys_patch.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\APS_PATCH\middleware\netlink\at\at_cmd_sys_patch.c</FilePath>
-            </File>
-            <File>
-              <FileName>at_cmd_tcpip_patch.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\APS_PATCH\middleware\netlink\at\at_cmd_tcpip_patch.c</FilePath>
-            </File>
-            <File>
-              <FileName>at_cmd_wifi_patch.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\APS_PATCH\middleware\netlink\at\at_cmd_wifi_patch.c</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
           <GroupName>mw_fim</GroupName>
           <Files>
             <File>
