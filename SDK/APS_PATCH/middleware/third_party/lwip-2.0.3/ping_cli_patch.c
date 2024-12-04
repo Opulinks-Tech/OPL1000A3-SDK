@@ -30,7 +30,7 @@ int ping_cli_handler_patch(int len, char *param[])
         ping_period = 1000;  //ms
     }
 
-    if (len == 1 && (strcmp(param[0], "s") == NULL) ) {
+    if (len == 1 && param[0][0]=='s') {
         ping_stop();
         return 0;
     }
@@ -52,7 +52,7 @@ int ping_cli_handler_patch(int len, char *param[])
     }
 
     ping_request(count, param[0], PING_IP_ADDR_V4, pktsz, recv_timeout, ping_period, ping_cli_callback_patch);
-    
+
     CtrlWifi_PsStateForceInternal(STA_PS_AWAKE_MODE, true);
 
     return 0;

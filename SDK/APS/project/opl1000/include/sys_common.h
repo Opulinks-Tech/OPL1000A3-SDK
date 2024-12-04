@@ -55,6 +55,9 @@ extern "C" {
 #else
     #define RET_DATA    __attribute__((section("RET_REGION"), used, zero_init))
     #define RET_STATIC  __attribute__((section("RET_STATIC_REGION"), used, zero_init))
+    
+    
+    #define SHM_DATA __attribute__((section("SHM_REGION")))
 #endif
 
 // memory read/write

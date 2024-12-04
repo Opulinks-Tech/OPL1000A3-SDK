@@ -1,5 +1,34 @@
 ﻿
 ## Release Version:
+SDK Package: MP_3.005
+Patch_Lib : 6854
+
+## Release Date: 2024/07/29
+
+## Function & Feature Update 
+1. Documents updating:
+   1.1 NONE
+   
+2. Tool version information and update:
+   2.1 NONE
+
+3. Demo update:
+   3.1 NONE
+   
+4. Examples update:
+   4.1 NONE
+   
+
+## Bug Fix List 
+
+[0003432]: New rf setting for OPL_1000_A3 for TX performance improve
+[0003330]: [LE-LL] Add AT command for BLE Scan functionality
+
+
+
+===
+
+## Release Version:
 SDK Package: MP_3.004
 Patch_Lib : 6208
 

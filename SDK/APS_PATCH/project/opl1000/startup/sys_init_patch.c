@@ -38,6 +38,7 @@
 #include "driver_netlink_patch.h"
 #include "wifi_service_func_init_patch.h"
 #include "ble_host_patch_init.h"
+#include "ipc_patch.h"
 
 /*
  *************************************************************************
@@ -111,7 +112,7 @@ void SysInit_EntryPoint(void)
     // 3. sys init
 
     // 4. IPC
-    ISR_PatchInit();
+    Ipc_PatchInit();
 
     // 5. Control task
 
@@ -148,6 +149,7 @@ void SysInit_EntryPoint(void)
     ps_patch_init();
 
     // 17. ISR
+    ISR_PatchInit();
 
     // 18. DIAG
     Diag_PatchInit();
